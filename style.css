@@ -1,0 +1,61 @@
+body {
+	background-image: url('background.png');
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	margin-top: 10%;
+}
+
+p {
+	margin-top: 7%;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+form {
+	margin-right: auto;
+	margin-left: auto;
+	width: 314px;
+}
+
+form input {
+	border: 0px;
+	color: #F882FF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: left;
+}
+
+form input[type=email] {
+	padding-left: 10px;
+	float: left;
+	width: 246px;
+	height: 36px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: #000;
+	opacity: 0.45;
+	filter: alpha(opacity=45); /* For IE8 and earlier */
+}
+
+form input[type=submit] {
+	margin-top: 2px;
+	float: right;
+	width: 57px;
+	height: 36px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-image: url('submit.png');
+}
+
+form input[type=submit]:hover {
+	background-image: url('submit_hover.png');
+}
+
+form input[type=submit]:active {
+	background-image: url('submit_active3.png');
+}
